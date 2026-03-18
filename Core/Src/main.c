@@ -117,7 +117,7 @@ int main(void)
   HAL_ADC_Start(&hadc2);
   //开启PWM
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
-  ESP8266_Init();
+
   bmp280_Init(&hi2c1);
   LCD_Init();
   KalmanFilter_Init(&kf1, 0.01, 1, 0);

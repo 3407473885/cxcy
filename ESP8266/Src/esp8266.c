@@ -7,12 +7,12 @@
  */
 uint8_t ESP8266_Init(void)
 {
-    HAL_Delay(500);
+    osDelay(500);
     if( !ESP8266_SendCmd("AT", "OK") ) return 0;
     if( !ESP8266_SendCmd("ATE0", "OK") ) return 0;
     // printf("esp8266初始化成功\n");
     
-    HAL_Delay(100);  
+    osDelay(100);  
     ESP8266_ConnectWifi("iQOO12", "34074700");
     ESP8266_ConnectMqttAliyun(MQTT_USERNAME, MQTT_PASSWORD, MQTT_CLIENTID, MQTT_HOSTURL);
     ESP8266_SubscribeTopic("/k1qq30jp47P/ESP32/user/subscribe"); 
@@ -26,7 +26,7 @@ uint8_t ESP8266_SendCmd(const char *cmd, const char *expectation)
     uint8_t byte;
 
     printf("CMD:%s\n",cmd);
-    HAL_Delay(100);   
+    osDelay(100);   
     HAL_UART_Transmit(&huart1, (uint8_t *)cmd, strlen(cmd), 1000);
     HAL_UART_Transmit(&huart1, (uint8_t *)"\r\n", 2, 1000);
 
@@ -38,15 +38,15 @@ uint8_t ESP8266_SendCmd(const char *cmd, const char *expectation)
 
     rx_buffer[len] = '\0';
     printf("%s\n",rx_buffer);
-    HAL_Delay(100);   
+    osDelay(100);   
     if(expectation && (strstr(rx_buffer, expectation) || strstr(rx_buffer, "\r\nOK\r\n")))
     {
         printf("%s + 成功\n",cmd);
-        HAL_Delay(100);   
+        osDelay(100);   
         return 1;
     }
     printf("%s + 失败\n",cmd);
-    HAL_Delay(100);   
+    osDelay(100);   
     return 0;
 }
 
@@ -65,7 +65,7 @@ uint8_t ESP8266_ConnectWifi(const char *ssid, const char *pwd)
     sprintf(cmd, "AT+CWJAP=\"%s\",\"%s\"", ssid, pwd);
     if( !ESP8266_SendCmd(cmd , "WIFI CONNECTED") ) return 0;
     // printf("连接网络成功\n");
-    HAL_Delay(100);   
+    osDelay(100);   
     return 1;
 }
 
@@ -90,7 +90,7 @@ uint8_t ESP8266_ConnectMqttAliyun(const char *username, const char *password, co
     if( !ESP8266_SendCmd((const char *)cmd, "MQTTCONNECTED") ) return 0;
 
     // printf("连接阿里云成功\n");
-    HAL_Delay(100);   
+    osDelay(100);   
     return 1;
 }
 
@@ -108,11 +108,11 @@ uint8_t ESP8266_Publish(const char* topic, const char* content)
     sprintf(cmd, "AT+MQTTPUB=0,\"%s\",\"%s\",1,0",topic, content);
     if( !ESP8266_SendCmd(cmd, "OK") ){
         // printf("发布失败");
-        HAL_Delay(100);   
+        osDelay(100);   
         return 0;
     } 
     // printf("发布成功");
-    HAL_Delay(100);   
+    osDelay(100);   
     return 1;
 }
 
@@ -129,11 +129,11 @@ uint8_t ESP8266_SubscribeTopic(const char *topic)
     sprintf(cmd, "AT+MQTTSUB=0,\"%s\",1", topic);
     if( !ESP8266_SendCmd(cmd, "ok") ) {
         // printf("订阅失败");
-        HAL_Delay(100);   
+        osDelay(100);   
         return 0;
     }
     // printf("订阅成功\n");
-    HAL_Delay(100);   
+    osDelay(100);   
     return 1;
 }
 

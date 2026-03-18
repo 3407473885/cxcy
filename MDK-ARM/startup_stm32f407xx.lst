@@ -832,10 +832,10 @@ ARM Macro Assembler    Page 13
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
 interwork --depend=cxcy\startup_stm32f407xx.d -ocxcy\startup_stm32f407xx.o -IC:
 /Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include
- -I../Drivers/CMSIS/Include -I.\RTE\_cxcy -ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMS
-IS\Core\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION 
-SETA 541" --predefine="STM32F407xx SETA 1" --predefine="_RTE_ SETA 1" --list=st
-artup_stm32f407xx.lst startup_stm32f407xx.s
+ -I.\RTE\_cxcy -ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include --predefine
+="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 541" --predefine="STM3
+2F407xx SETA 1" --predefine="_RTE_ SETA 1" --list=startup_stm32f407xx.lst start
+up_stm32f407xx.s
 
 
 

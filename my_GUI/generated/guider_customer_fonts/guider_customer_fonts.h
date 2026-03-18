@@ -20,7 +20,7 @@ extern "C" {
 #include "font/lv_font.h"
 #endif
 
-LV_FONT_DECLARE(lv_customer_font_STKAITI_16)
+LV_FONT_DECLARE(lv_customer_font_STKAITI_38)
 
 
 #ifdef __cplusplus

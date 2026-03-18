@@ -22,10 +22,10 @@
 #include "task.h"
 #include "main.h"
 #include "cmsis_os.h"
+#include "gui_guider.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -35,7 +35,6 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -178,18 +177,26 @@ void StartDefaultTask(void *argument)
 void Sensor_Task(void *argument)
 {
   /* USER CODE BEGIN Sensor_Task */
-	
+  char text[10];
   /* Infinite loop */
   for(;;)
   {
-		//��ȡ��ѹ���������¶�
+		//获取电压、电流、温度
     vol = Get_vol();
     current = Get_Current();
     temp = Get_Temp();
-    //�������˲�
+
+    //卡尔曼滤波
     KalmanFilter_Handle(&kf1, &kf2, &kf3, vol, current, temp);
-    //ʣ�����������
+    //显示电量
     Remaining_battery_show(filtered_voltage);
+
+    sprintf(text, "%.2f%s", filtered_current, "A");
+    lv_label_set_text(guider_ui.screen_curr_real, text);
+    sprintf(text, "%.2f%s", filtered_voltage, "v");
+    lv_label_set_text(guider_ui.screen_volt_real, text);
+    sprintf(text, "%.2f%s", filtered_temperature, "°C");
+    lv_label_set_text(guider_ui.screen_temp_real, text); 
     osDelay(1);
   }
   /* USER CODE END Sensor_Task */
@@ -205,12 +212,25 @@ void Sensor_Task(void *argument)
 void Upload_Task(void *argument)
 {
   /* USER CODE BEGIN Upload_Task */
+  uint8_t wifi_sign = 0;
+  ESP8266_Init();
+  
 	char text[512];
   /* Infinite loop */
   for(;;)
   {
-		sprintf(text, "{\\\"params\\\":{\\\"V\\\":%.2f,\\\"I\\\":%.2f,\\\"T\\\":%.2f,\\\"SOC\\\":%d%%,\\\"alarm\\\":%d}}",filtered_voltage, filtered_current, filtered_temperature, soc_estimate,level);
-    ESP8266_Publish(topic, text);
+    if( 0 == wifi_sign )
+    {
+      lv_label_set_text(guider_ui.screen_wifi_real, "network disconnected" LV_SYMBOL_WIFI " ");
+      wifi_sign = ESP8266_ConnectWifi("iQOO12", "34074700") & ESP8266_ConnectMqttAliyun(MQTT_USERNAME, MQTT_PASSWORD, MQTT_CLIENTID, MQTT_HOSTURL) & ESP8266_SubscribeTopic("/k1qq30jp47P/ESP32/user/subscribe");
+    }
+    else
+    {
+      lv_label_set_text(guider_ui.screen_wifi_real, "network connected" LV_SYMBOL_WIFI " ");
+		  sprintf(text, "{\\\"params\\\":{\\\"V\\\":%.2f,\\\"I\\\":%.2f,\\\"T\\\":%.2f,\\\"SOC\\\":%.0f%%,\\\"alarm\\\":%d}}",(double)filtered_voltage, (double)filtered_current, (double)filtered_temperature, soc_estimate,level);
+      ESP8266_Publish(topic, text);
+    }
+
     osDelay(1);
   }
   /* USER CODE END Upload_Task */
@@ -229,8 +249,29 @@ void Alarm_Task(void *argument)
   /* Infinite loop */
   for(;;)
   {
-		 //����������
+		 //报警检查
     level = Check_Battery_Alarm(level);
+
+    if(level == ALARM_NONE){
+      // 正常：白色
+      lv_obj_set_style_bg_color(guider_ui.screen_cont_15, lv_color_hex(0xFFFFFF), LV_PART_MAIN|LV_STATE_DEFAULT);
+      lv_label_set_text(guider_ui.screen_status_real, "正常");
+    }
+    else if(level == ALARM_LOW){
+      // 低报警：黄色
+      lv_obj_set_style_bg_color(guider_ui.screen_cont_15, lv_color_hex(0xFFFF00), LV_PART_MAIN|LV_STATE_DEFAULT);
+      lv_label_set_text(guider_ui.screen_status_real, "黄色报警");
+    }
+    else if(level == ALARM_MEDIUM){
+      // 中报警：橙色
+      lv_obj_set_style_bg_color(guider_ui.screen_cont_15, lv_color_hex(0xFFA500), LV_PART_MAIN|LV_STATE_DEFAULT);
+      lv_label_set_text(guider_ui.screen_status_real, "橙色报警");
+    }
+    else if(level == ALARM_HIGH){
+      // 高报警：红色
+      lv_obj_set_style_bg_color(guider_ui.screen_cont_15, lv_color_hex(0xFF0000), LV_PART_MAIN|LV_STATE_DEFAULT);
+      lv_label_set_text(guider_ui.screen_status_real, "红色报警");
+    }
     Trigger_Alarm(level);
     osDelay(1);
   }

@@ -1,1 +1,1 @@
-cxcy\stm32f4xx_ll_adc.o: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
+cxcy\stm32f4xx_ll_adc.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c

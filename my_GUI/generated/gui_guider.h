@@ -31,7 +31,7 @@ typedef struct
 	lv_obj_t *screen_cont_19;
 	lv_obj_t *screen_label_8;
 	lv_obj_t *screen_temp_real;
-	lv_obj_t *screen_label_10;
+	lv_obj_t *screen_wifi_real;
 	lv_obj_t *screen_cont_15;
 	lv_obj_t *screen_label_9;
 	lv_obj_t *screen_status_real;
@@ -64,7 +64,6 @@ LV_FONT_DECLARE(lv_font_montserratMedium_16)
 LV_FONT_DECLARE(lv_font_montserratMedium_28)
 LV_FONT_DECLARE(lv_font_STKAITI_16)
 LV_FONT_DECLARE(lv_font_STKAITI_38)
-LV_FONT_DECLARE(lv_font_STKAITI_39)
 
 
 #ifdef __cplusplus

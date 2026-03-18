@@ -53,11 +53,15 @@ extern "C" {
 #include "gui_guider.h"
 #include "events_init.h"
 #include "custom.h"
+
+#include "stdio.h"
+#include "string.h"
+
+#include "cmsis_os.h"
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-// �����ȼ�����
 
 /* USER CODE END ET */
 
@@ -126,16 +130,16 @@ extern float filtered_current;
 extern float filtered_temperature;
 extern float soc_estimate;
 
-extern KalmanFilter kf1,kf2,kf3; // �������˲����
+extern KalmanFilter kf1,kf2,kf3; // 卡尔曼滤波句柄
 
-extern float filtered_voltage; //�˲���ĵ�ѹ
-extern float filtered_current; //�˲���ĵ���
-extern float filtered_temperature; //�˲�����¶�
-extern float soc_estimate; //ʣ�����
+extern float filtered_voltage; //滤波后的电压
+extern float filtered_current; //滤波后的电流
+extern float filtered_temperature; //滤波后的温度
+extern float soc_estimate; //剩余电量
 
-extern float vol; //������ѹ
-extern float current; //��������
-extern float temp; //�����¶�
+extern float vol; //测量电压
+extern float current; //测量电流
+extern float temp; //测量温度
 
 /* USER CODE END Private defines */
 
