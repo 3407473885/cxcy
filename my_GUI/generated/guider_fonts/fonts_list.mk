@@ -1,0 +1,1 @@
+GEN_CSRCS += lv_font_STKAITI_26.c lv_font_montserratMedium_16.c lv_font_montserratMedium_28.c lv_font_STKAITI_16.c lv_font_STKAITI_38.c lv_font_STKAITI_39.c

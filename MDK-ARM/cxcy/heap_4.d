@@ -1,0 +1,13 @@
+cxcy\heap_4.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+cxcy\heap_4.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+cxcy\heap_4.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+cxcy\heap_4.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+cxcy\heap_4.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+cxcy\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+cxcy\heap_4.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+cxcy\heap_4.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+cxcy\heap_4.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+cxcy\heap_4.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+cxcy\heap_4.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+cxcy\heap_4.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+cxcy\heap_4.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/list.h

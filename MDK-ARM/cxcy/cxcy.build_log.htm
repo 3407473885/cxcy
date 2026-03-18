@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ≥© ¡ı, HP Inc., LIC=X96CK-Z7IR5-748S0-B815K-TS543-TTYMH
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.41.0.0
+Toolchain Path:  D:\MyStudy\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\34074\Desktop\cxcy (2)\cxcy\cxcy\MDK-ARM\cxcy.uvprojx
+Project File Date:  03/17/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\MyStudy\keil5\ARM\ARMCC\Bin'
+Build target 'cxcy'
+compiling freertos.c...
+../Core/Src/freertos.c(163): warning:  #223-D: function "display_time" declared implicitly
+  		display_time(&guider_ui);
+../Core/Src/freertos.c(212): warning:  #181-D: argument is incompatible with corresponding format string conversion
+  		sprintf(text, "{\\\"params\\\":{\\\"V\\\":%.2f,\\\"I\\\":%.2f,\\\"T\\\":%.2f,\\\"SOC\\\":%d%%,\\\"alarm\\\":%d}}",filtered_voltage, filtered_current, filtered_temperature, soc_estimate,level);
+../Core/Src/freertos.c: 2 warnings, 0 errors
+linking...
+cxcy\cxcy.axf: Error: L6218E: Undefined symbol display_time (referred from freertos.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 1 error messages.
+"cxcy\cxcy.axf" - 1 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.1.0.pack
+                Keil::STM32F4xx_DFP@3.1.0
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_cxcy
+  D:/MyStudy/pack/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

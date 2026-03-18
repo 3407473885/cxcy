@@ -1,0 +1,13 @@
+cxcy\lv_lru.o: ..\lvgl\lvgl\src\misc\lv_lru.c
+cxcy\lv_lru.o: ..\lvgl\lvgl\src\misc\lv_lru.h
+cxcy\lv_lru.o: ..\lvgl\lvgl\src\misc\../lv_conf_internal.h
+cxcy\lv_lru.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+cxcy\lv_lru.o: ..\lvgl\lvgl\src\misc\../lv_conf_kconfig.h
+cxcy\lv_lru.o: ..\lvgl\lvgl\src\misc\../../../lv_conf.h
+cxcy\lv_lru.o: ..\lvgl\lvgl\src\misc\lv_types.h
+cxcy\lv_lru.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+cxcy\lv_lru.o: ..\lvgl\lvgl\src\misc\lv_math.h
+cxcy\lv_lru.o: ..\lvgl\lvgl\src\misc\lv_mem.h
+cxcy\lv_lru.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\string.h
+cxcy\lv_lru.o: ..\lvgl\lvgl\src\misc\lv_assert.h
+cxcy\lv_lru.o: ..\lvgl\lvgl\src\misc\lv_log.h
