@@ -1,8 +1,8 @@
 Dependencies for Project 'cxcy', Target 'cxcy': (DO NOT MODIFY !)
 CompilerVersion: 5060528::V5.06 update 5 (build 528)::.\ARMCC
 F (startup_stm32f407xx.s)(0x69B94824)(--cpu Cortex-M4.fp.sp -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include--pd "__UVISION_VERSION SETA 541" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f407xx.lst --xref -o cxcy\startup_stm32f407xx.o --depend cxcy\startup_stm32f407xx.d)
-F (../Core/Src/main.c)(0x69BA610F)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\main.o --omf_browse cxcy\main.crf --depend cxcy\main.d)
-I (../Core/Inc/main.h)(0x69BA66DF)
+F (../Core/Src/main.c)(0x69BB6DEB)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\main.o --omf_browse cxcy\main.crf --depend cxcy\main.d)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -201,7 +201,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (../Core/Inc/dma.h)(0x69B93AF4)
 F (../Core/Src/gpio.c)(0x69B38BBA)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\gpio.o --omf_browse cxcy\gpio.crf --depend cxcy\gpio.d)
 I (../Core/Inc/gpio.h)(0x69B37036)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -408,7 +408,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x6921756B)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x6921756B)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6921756B)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -595,7 +595,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6921756B)
 F (../Core/Src/adc.c)(0x69B37AA2)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\adc.o --omf_browse cxcy\adc.crf --depend cxcy\adc.d)
 I (../Core/Inc/adc.h)(0x69B37AA2)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -792,7 +792,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6921756B)
 F (../Core/Src/dma.c)(0x69B93AF4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\dma.o --omf_browse cxcy\dma.crf --depend cxcy\dma.d)
 I (../Core/Inc/dma.h)(0x69B93AF4)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -990,7 +990,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6921756B)
 F (../Core/Src/i2c.c)(0x69B37038)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\i2c.o --omf_browse cxcy\i2c.crf --depend cxcy\i2c.d)
 I (../Core/Inc/i2c.h)(0x69B37038)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -1187,7 +1187,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6921756B)
 F (../Core/Src/spi.c)(0x69B93AF4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\spi.o --omf_browse cxcy\spi.crf --depend cxcy\spi.d)
 I (../Core/Inc/spi.h)(0x69B37038)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -1384,7 +1384,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6921756B)
 F (../Core/Src/tim.c)(0x69B38BBC)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\tim.o --omf_browse cxcy\tim.crf --depend cxcy\tim.d)
 I (../Core/Inc/tim.h)(0x69B37038)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -1581,7 +1581,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6921756B)
 F (../Core/Src/usart.c)(0x69B37038)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\usart.o --omf_browse cxcy\usart.crf --depend cxcy\usart.d)
 I (../Core/Inc/usart.h)(0x69B37038)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -1777,7 +1777,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x6921756B)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6921756B)
 F (../Core/Src/stm32f4xx_it.c)(0x69B94A38)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\stm32f4xx_it.o --omf_browse cxcy\stm32f4xx_it.crf --depend cxcy\stm32f4xx_it.d)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -1975,7 +1975,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6921756B)
 I (../Core/Inc/stm32f4xx_it.h)(0x69B93AF4)
 F (../Core/Src/stm32f4xx_hal_msp.c)(0x69B93AF4)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\stm32f4xx_hal_msp.o --omf_browse cxcy\stm32f4xx_hal_msp.crf --depend cxcy\stm32f4xx_hal_msp.d)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -2210,7 +2210,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x692175DD)
 F (..\ESP8266\Src\esp8266.c)(0x69BA65A0)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\esp8266.o --omf_browse cxcy\esp8266.crf --depend cxcy\esp8266.d)
 I (../ESP8266/Inc/esp8266.h)(0x69B3720A)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -2409,7 +2409,7 @@ F (..\ESP8266\Inc\esp8266.h)(0x69B3720A)()
 F (..\LED\Inc\led.h)(0x69B3770E)()
 F (..\LED\Src\led.c)(0x69B37C90)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\led.o --omf_browse cxcy\led.crf --depend cxcy\led.d)
 I (../LED/Inc/led.h)(0x69B3770E)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -2607,7 +2607,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 F (..\LCD\Inc\lcd.h)(0x69B38DBE)()
 F (..\LCD\Src\lcd.c)(0x69B370BA)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\lcd.o --omf_browse cxcy\lcd.crf --depend cxcy\lcd.d)
 I (../LCD/Inc/lcd.h)(0x69B38DBE)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -2806,7 +2806,7 @@ F (..\LCD\Src\ft6336.c)(0x69B3741C)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB 
 I (../LCD/Inc/ft6336.h)(0x69B37458)
 I (D:\MyStudy\keil5\ARM\ARMCC\include\stdint.h)(0x683AE200)
 I (../Core/Inc/i2c.h)(0x69B37038)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -3005,7 +3005,7 @@ I (../LCD/Inc/touch.h)(0x69B946E0)
 I (../LCD/Inc/ft6336.h)(0x69B37458)
 I (D:\MyStudy\keil5\ARM\ARMCC\include\stdint.h)(0x683AE200)
 I (../Core/Inc/i2c.h)(0x69B37038)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -3202,7 +3202,7 @@ F (..\LCD\Inc\touch.h)(0x69B946E0)()
 F (..\BMP280\Inc\bmp280.h)(0x69B90DE6)()
 F (..\BMP280\Src\bmp280.c)(0x69B36ED8)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\bmp280.o --omf_browse cxcy\bmp280.crf --depend cxcy\bmp280.d)
 I (../BMP280/Inc/bmp280.h)(0x69B90DE6)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -3399,7 +3399,7 @@ I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h)(0x6921756B)
 F (..\FUNTION\Src\funtion.c)(0x69B9465E)(--c99 -c --cpu Cortex-M4.fp.sp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../FUNTION/Inc -I ../ESP8266/Inc -I ../BMP280/Inc -I ../LCD/Inc -I ../LED/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Device/ST/STM32F4xx/Include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/CMSIS/Include -I ../kalman_filter/Inc -I ../lvgl/lvgl/src -I ../lvgl/lvgl/examples/porting -I ../lvgl/lvgl/demos -I ../lvgl/lvgl/demos/stress -I ../lvgl/lvgl/demos/music -I ../lvgl -I ../my_GUI/custom -I ../my_GUI/generated -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2 -I C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F-I.\RTE\_cxcy-ID:\MyStudy\pack\ARM\CMSIS\6.1.0\CMSIS\Core\Include-D__UVISION_VERSION="541" -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o cxcy\funtion.o --omf_browse cxcy\funtion.crf --depend cxcy\funtion.d)
 I (../FUNTION/Inc/funtion.h)(0x69B946AA)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -22997,7 +22997,7 @@ I (..\lvgl\lvgl\examples\porting\../../src/extra/widgets/led/lv_led.h)(0x6895883
 I (..\lvgl\lvgl\examples\porting\../../src/extra/widgets/imgbtn/lv_imgbtn.h)(0x6895883C)
 I (..\lvgl\lvgl\examples\porting\../../src/extra/widgets/span/lv_span.h)(0x6895883C)
 I (../LCD/Inc/lcd.h)(0x69B38DBE)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
@@ -23197,7 +23197,7 @@ I (../lvgl/lvgl/src/extra/widgets/span/lv_span.h)(0x6895883C)
 I (../LCD/Inc/touch.h)(0x69B946E0)
 I (../LCD/Inc/ft6336.h)(0x69B37458)
 I (../Core/Inc/i2c.h)(0x69B37038)
-I (../Core/Inc/main.h)(0x69BA66DF)
+I (../Core/Inc/main.h)(0x69BB6DE5)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x692175DD)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x69B369D4)
 I (C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x692175DD)
