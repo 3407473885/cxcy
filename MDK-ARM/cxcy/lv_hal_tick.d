@@ -1,0 +1,15 @@
+cxcy\lv_hal_tick.o: ..\lvgl\lvgl\src\hal\lv_hal_tick.c
+cxcy\lv_hal_tick.o: ..\lvgl\lvgl\src\hal\lv_hal_tick.h
+cxcy\lv_hal_tick.o: ..\lvgl\lvgl\src\hal\../lv_conf_internal.h
+cxcy\lv_hal_tick.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+cxcy\lv_hal_tick.o: ..\lvgl\lvgl\src\hal\../lv_conf_kconfig.h
+cxcy\lv_hal_tick.o: ..\lvgl\lvgl\src\hal\../../../lv_conf.h
+cxcy\lv_hal_tick.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+cxcy\lv_hal_tick.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+cxcy\lv_hal_tick.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+cxcy\lv_hal_tick.o: ../Core/Inc/FreeRTOSConfig.h
+cxcy\lv_hal_tick.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+cxcy\lv_hal_tick.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+cxcy\lv_hal_tick.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+cxcy\lv_hal_tick.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+cxcy\lv_hal_tick.o: C:/Users/34074/STM32Cube/Repository/STM32Cube_FW_F4_V1.28.3/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h

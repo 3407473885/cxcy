@@ -1,0 +1,16 @@
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\lv_font.c
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\lv_font.h
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\../lv_conf_internal.h
+cxcy\lv_font.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\../lv_conf_kconfig.h
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\../../../lv_conf.h
+cxcy\lv_font.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+cxcy\lv_font.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\lv_symbol_def.h
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\../misc/lv_area.h
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\../misc/lv_utils.h
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\../misc/lv_log.h
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\../misc/lv_types.h
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\../misc/lv_assert.h
+cxcy\lv_font.o: ..\lvgl\lvgl\src\font\../misc/lv_mem.h
+cxcy\lv_font.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\string.h

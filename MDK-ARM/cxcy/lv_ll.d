@@ -1,0 +1,11 @@
+cxcy\lv_ll.o: ..\lvgl\lvgl\src\misc\lv_ll.c
+cxcy\lv_ll.o: ..\lvgl\lvgl\src\misc\lv_ll.h
+cxcy\lv_ll.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+cxcy\lv_ll.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stddef.h
+cxcy\lv_ll.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+cxcy\lv_ll.o: ..\lvgl\lvgl\src\misc\lv_mem.h
+cxcy\lv_ll.o: ..\lvgl\lvgl\src\misc\../lv_conf_internal.h
+cxcy\lv_ll.o: ..\lvgl\lvgl\src\misc\../lv_conf_kconfig.h
+cxcy\lv_ll.o: ..\lvgl\lvgl\src\misc\../../../lv_conf.h
+cxcy\lv_ll.o: D:\MyStudy\keil5\ARM\ARMCC\Bin\..\include\string.h
+cxcy\lv_ll.o: ..\lvgl\lvgl\src\misc\lv_types.h
